@@ -1,6 +1,6 @@
 <?php
-#Importation
-include("/includer/db-connect.php");
+global $bdd;
+include("../../includer/db-connect.php");
 session_start();
 
 #Creation variable repétitive
