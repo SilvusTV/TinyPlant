@@ -8,47 +8,6 @@
     --Font-Color-Green : #d7fcc8;
     --Font-Color-Grey : #63758f;
 }
-header{
-    -webkit-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
-#top {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: nowrap;
-    align-items: center;
-    box-shadow: 0px 0.5px var(--Major_Grey);
-}
-#Logo_Head{
-    margin-left: 1.5em;
-    top: 0.05em;
-    left: 4em;
-    max-width: 8em;
-    min-width: 8em;
-    max-height: 8em;
-    min-height: 8em;
-}
-#Nav{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: center;
-    margin-right: 7em;
-}
-.Icon_Bar{
-    margin-right: 4em;
-    max-width: 1.25em;
-    min-width: 1.25em;
-    max-height: 1.25em;
-    min-height: 1.25em;
-}
-
-/*PARTIE MODALE*/
-
-#Acc{
-    background: black;
-    width: 50em;
+#Firt{
+    background-image: url("../Product-files/Jungle_Img_WP.jpg");
 }
