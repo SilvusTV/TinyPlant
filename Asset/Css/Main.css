@@ -9,5 +9,7 @@
     --Font-Color-Grey : #63758f;
 }
 #Firt{
-    background-image: url("../Product-files/Jungle_Img_WP.jpg");
+    height: 8rem;
+    background-image: url("../Product-files/Plant Palm Leaf Simple Background.jpg");
+    background-repeat: no-repeat;
 }
