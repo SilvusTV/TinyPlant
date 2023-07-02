@@ -7,7 +7,7 @@ $button = $_POST['submit'];
 $lastName = $_POST['last_name_signup'];
 $firstName = $_POST['first_name_signup'];
 $mail = $_POST['email_signup'];
-$mailConf = $_POST['email_confirm_signup-mail'];
+$mailConf = $_POST['email_confirm_signup'];
 $pass = $_POST['password_signup'];
 $passConf = $_POST['password_confirm_signup'];
 

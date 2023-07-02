@@ -20,7 +20,8 @@ if(isset($button)){
         if($user == 1){
             $_SESSION['user'] = $mail;
             $message="1";
-            header('Location: ../index');
+//            header('Location: ../profil.php');
+            header('Location: ../../index.php');
         }else{
             $message ="3(id/incorect credential)";
             header('Location: ../connect.php?messcode='.$message.'');

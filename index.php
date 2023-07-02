@@ -1,3 +1,7 @@
+<?php
+global $bdd;
+include("./includer/db-connect.php");
+?>
 <!doctype html>
 <html lang="fr">
 <head>
@@ -8,6 +12,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Tiny Plant</title>
 </head>
+<button id="btn-Acc">A delete</button>
 <body>
         <div class="window-product">
             <div id="Firt"></div>
@@ -85,15 +90,12 @@
         </div>
 
         <div class="real-top">
-            <div class="category-1">Category 1</div>
-
-            <div class="category-1">Category 1</div>
-
-            <div class="category-1">Category 1</div>
-
-            <div class="category-1">Category 1</div>
-
-            <div class="category-1">Category 1</div>
+            <?php
+            $categories = $bdd->query('SELECT * FROM Categories');
+            while ($category = $categories->fetch()){
+                echo '<a href="./category.php?category='. $category['scope'] .'">'.$category['name'].'</a>';
+            }
+            ?>
         </div>
 </body>
 <script src="../Asset/Js/Modale_Acc.js"></script>
