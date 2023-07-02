@@ -7,9 +7,163 @@
     /*couleur de font*/
     --Font-Color-Green : #d7fcc8;
     --Font-Color-Grey : #63758f;
+    --Hauteur_banner : 13rem;
+    --Largeur_banner : 100%;
+    --LargeurMax_banner : 100vw;
 }
-#Firt{
-    height: 8rem;
-    background-image: url("../Product-files/Plant Palm Leaf Simple Background.jpg");
-    background-repeat: no-repeat;
+#Mid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hug-content{
+    display: flex;
+    width: var(--Largeur_banner);
+    max-width: var(--LargeurMax_banner);
+    height: 44em;
+    padding: 10px;
+    flex-direction: row;
+    gap: 25px;
+    flex-shrink: 0;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.content-frame{
+    display: flex;
+    width: 20vh;
+    height: 20vh;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    flex-shrink: 0;
+}
+.window-product{
+    border-radius: 15px;
+    margin-top: 4vh;
+    height: var(--Hauteur_banner);
+    display: flex;
+    width: var(--Largeur_banner);
+    max-width: var(--LargeurMax_banner);
+    padding-right: 0;
+    align-items: center;
+    background-image: url(../Product-files/Plant-Palm-Leaf-Simple-Background.jpg);
+    background-size: cover;
+}
+.window-product2{
+    border-radius: 15px;
+    margin-top: 4vh;
+    height: var(--Hauteur_banner);
+    display: flex;
+    width: var(--Largeur_banner);
+    max-width: var(--LargeurMax_banner);
+    padding-right: 0;
+    align-items: center;
+    background-image: url(../Product-files/Plant-Palm-Leaf-Simple-Background.jpg);
+    background-size: cover;
+    flex-direction: row-reverse;
+}
+.descriptif {
+    border-radius: 15px 0px 0px 15px ;
+    display: flex;
+    width: 450px;
+    padding: 0;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+    background: rgba(33, 107, 57, 0.50);
+    height: var(--Hauteur_banner);
+    justify-content: center;
+}
+.titre-produit{
+    display: flex;
+    width: 306px;
+    height: 41px;
+    flex-direction: column;
+    justify-content: center;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.right-top-bar{
+    display: flex;
+    padding-left: 0;
+    height: 8.75rem;
+    justify-content: flex-end;
+    align-items: center;
+    background: #FFF;
+}
+.top-band{
+    border-radius: 15px;
+    display: flex;
+    width: var(--Largeur_banner);
+    max-width: var(--LargeurMax_banner);
+    height: 8.75rem;
+    align-items: center;
+    /* flex-shrink: 0; */
+    box-shadow: 5px 1px 3px 0px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.left-side{
+    display: flex;
+    width: 71.1875rem;
+    padding: 2.875rem 4.375rem;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 4.6875rem;
+    align-self: stretch;
+}
+.Icon-top-bar{
+    width: 2rem;
+    height: 2rem;
+    flex-shrink: 0;
+}
+#logo {
+    width: 15.375rem;
+    height: 8.75rem;
+}
+.Product_Img{
+    border-radius: 24px;
+    width: 10rem;
+    height: 12rem;
+}
+.prod{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.real-top{
+    width: var(--LargeurMax_banner);
+    margin-top: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.real-top a {
+    margin-right: 2em;
+    display: flex;
+    width: 10em;
+    background: none;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 2em;
+    border-color: #045e51;
+}
+footer{
+    background: #045e51;
+    padding: 20px;
+    text-align: center;
+    height: 6em;
+    width: var(--LargeurMax_banner);    bottom: 0;
 }
