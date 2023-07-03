@@ -12,37 +12,8 @@ include("./includer/db-connect.php");
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Tiny Plant</title>
 </head>
-<<<<<<< Updated upstream
 <button id="btn-Acc">A delete</button>
 <body>
-=======
-<body>
-<?php
-include './account/connect.php'
-?>
- <header>    <div class="top-band">
-         <div class="right-top-bar">
-             <div class="logo">
-                 <img id="logo" src="Asset/Svg/iny-Plant.svg">
-             </div>
-             <div class="left-side">
-                 <img id="Acc-connect" class="Icon-top-bar" src="Asset/Svg/user-thin.svg">
-                 <img class="Icon-top-bar" src="Asset/Svg/heart-thin.svg">
-                 <img class="Icon-top-bar" src="Asset/Svg/bag-shopping-thin.svg">
-             </div>
-         </div>
-     </div>
- </header>
- <section id="Mid">
-     <div class="real-top">
-     <?php
-     $categories = $bdd->query('SELECT * FROM Categories');
-     while ($category = $categories->fetch()){
-         echo '<a href="./category.php?category='. $category['scope'] .'">'.$category['name'].'</a>';
-     }
-     ?>
-     </div>
->>>>>>> Stashed changes
         <div class="window-product">
             <div id="Firt"></div>
             <div class="descriptif">
@@ -117,11 +88,6 @@ include './account/connect.php'
                 <div class="titre-produit">Titre produit</div>
             </div>
         </div>
-<<<<<<< Updated upstream
-=======
- </section>
-<footer>
->>>>>>> Stashed changes
 
         <div class="real-top">
             <?php
