@@ -24,13 +24,13 @@ if(isset($button)){
             header('Location: ../../index.php');
         }else{
             $message ="3(id/incorect credential)";
-            header('Location: ../../index.php?messcode='.$message.'');
+            header('Location: ../../index.php?messcode='.$message);
         }
     }else{
         $message = "2(champVide)";
-        header('Location: ../../index.php?messcode='.$message.'');
+        header('Location: ../../index.php?messcode='.$message);
     }
 }else{
     $message="0(boutonMarchePas)";
-    header('Location: ../../index.php?messcode='.$message.'');
+    header('Location: ../../index.php?messcode='.$message);
 }

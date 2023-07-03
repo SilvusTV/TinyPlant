@@ -1,5 +1,5 @@
 <link rel="stylesheet" href="Asset/Css/acc.css">
-<form id="container" action="./account/functionnal/connect_function.php" method="post">
+<form id="connect_form" action="./account/functionnal/connect_function.php" method="post" class="<!--d-none-->">
     <div class="card">
         <a class="singup">Connection</a>
         <div class="inputBox1">
@@ -10,7 +10,7 @@
             <input type="password"  id="passwordConnect" name="password_connect">
             <span>Password</span>
         </div>
-        <button class="enter">Enter</button>
-        <a id="inscri" href="./signup.php">Inscrivez-vous !</a>
+        <button class="enter" id="submit" name="submit">Enter</button>
+        <a class="bot" href="./signup.php">Inscrivez-vous !</a>
     </div>
 </form>

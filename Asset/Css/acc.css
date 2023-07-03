@@ -108,7 +108,7 @@
     background-color: rgb(0, 0, 0);
     color: white;
 }
-#inscri{
+.bot{
     color: #000;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -116,4 +116,10 @@
     font-weight: bold;
     font-size: x-large;
     margin-bottom: 1.5em;
+}
+#connect_form{
+    z-index: 100;
+    position: fixed;
+    right: 7%;
+    top: 8.75rem;
 }

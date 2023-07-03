@@ -1,0 +1,56 @@
+:root{
+    --Hauteur_Card : 20em;
+    --Largeur_Card : 20em;
+}
+a{
+    text-decoration: none;
+    color : #000000;
+}
+.Tiles{
+    color: #026a0c;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    display: block;
+    font-weight: bold;
+    font-size: 3em;
+    margin-top: 1em;
+
+}
+.Prodcard{
+    display: flex;
+    justify-content: flex-end;
+    min-height: 350px;
+    width: 20em;
+    flex-direction: column;
+    background: #e3e3e3;
+    box-shadow: 16px 16px 32px #c8c8c8, -16px -16px 32px #fefefe;
+    border-radius: 8px;
+}
+section{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-right: 3em;
+    align-items: center;
+    text-decoration: none;
+}
+.ProdImg{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+    width: var(--Largeur_Card);
+    height: var(--Hauteur_Card);
+}
+.id{
+    margin-left: 1em;
+}
+.desciption{
+    margin-left: 0.4em;
+}
+.price{
+    display: flex;
+    align-items: center;
+    margin-right: 1em;
+    justify-content: flex-end;
+}
+

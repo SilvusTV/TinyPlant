@@ -1,4 +1,5 @@
 <?php
+session_start();
 global $bdd;
 include("./includer/db-connect.php");
 ?>
@@ -15,7 +16,10 @@ include("./includer/db-connect.php");
 </head>
 <body>
 <?php
-include './account/connect.php'
+include './account/connect.php';
+if(isset($_SESSION['user'])){
+    echo'Connected';
+}
 ?>
 <header>
 	<div class="top-band">

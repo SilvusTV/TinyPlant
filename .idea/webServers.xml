@@ -5,7 +5,7 @@
       <webServer id="55c7f6c6-4bc5-46ce-96d9-f904ce369e43" name="Dev Tiny">
         <fileTransfer rootFolder="/var/www/web/dev/tinyplant/hugo" accessType="SFTP" host="silvus.me" port="22" sshConfigId="e048e551-9f58-4e8d-8c28-17e12c3d42d8" sshConfig="debian@silvus.me:22 password">
           <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
         </fileTransfer>
       </webServer>
