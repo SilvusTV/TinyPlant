@@ -1,13 +1,16 @@
-<link rel="stylesheet" href="../Asset/Css/Acc.css">
-<form id="card" action="./functionnal/connect_function.php" method="post">
-    <div class="inputBox">
-        <label for="emailConnect">Email</label>
-        <input type="email" placeholder="example@email.com" id="emailConnect" name="email_connection">
+<link rel="stylesheet" href="Asset/Css/acc.css">
+<form id="container" action="./account/functionnal/connect_function.php" method="post">
+    <div class="card">
+        <a class="singup">Connection</a>
+        <div class="inputBox1">
+            <input type="email" id="emailConnect" name="email_connection">
+            <span class="user">Email</span>
+        </div>
+        <div class="inputBox">
+            <input type="password"  id="passwordConnect" name="password_connect">
+            <span>Password</span>
+        </div>
+        <button class="enter">Enter</button>
+        <a id="inscri" href="./signup.php">Inscrivez-vous !</a>
     </div>
-    <div class=inputBox">
-        <label for="passwordConnect">Mot de passe</label>
-        <input type="password" placeholder="Mot de Passe" id="passwordConnect" name="password_connect">
-    </div>
-    <button id="submit" type="submit" name="submit">Se connecter</button>
-    <span id="donthave">Vous n'avez pas de compte ? <a href="./signup.php">Inscrivez-vous !</a></span>
 </form>

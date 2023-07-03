@@ -7,8 +7,7 @@
     font-size: x-large;
     margin-top: 1.5em;
 }
-
-form {
+.card {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,8 +43,8 @@ form {
     border-bottom-left-radius: 8px;
 }
 
-.inputBox label,
-.inputBox1 label {
+.inputBox span,
+.inputBox1 span {
     margin-top: 5px;
     position: absolute;
     left: 0;
@@ -61,8 +60,8 @@ form {
     border-radius: 8px;
 }
 
-.inputBox input:valid~label,
-.inputBox input:focus~label {
+.inputBox input:valid~span,
+.inputBox input:focus~span {
     transform: translateX(113px) translateY(-15px);
     font-size: 0.8em;
     padding: 5px 10px;
@@ -72,8 +71,8 @@ form {
     border: 2px;
 }
 
-.inputBox1 input:valid~label,
-.inputBox1 input:focus~label {
+.inputBox1 input:valid~span,
+.inputBox1 input:focus~span {
     transform: translateX(156px) translateY(-15px);
     font-size: 0.8em;
     padding: 5px 10px;
@@ -91,13 +90,13 @@ form {
     border-radius: 8px;
 }
 
- #submit {
+.enter {
     height: 45px;
     width: 100px;
     border-radius: 5px;
     border: 2px solid #000;
     cursor: pointer;
-    background-color: transparent;
+            background-color: transparent;
     transition: 0.5s;
     text-transform: uppercase;
     font-size: 10px;
@@ -105,7 +104,16 @@ form {
     margin-bottom: 3em;
 }
 
-#submit:hover {
+.enter:hover {
     background-color: rgb(0, 0, 0);
     color: white;
+}
+#inscri{
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: block;
+    font-weight: bold;
+    font-size: x-large;
+    margin-bottom: 1.5em;
 }

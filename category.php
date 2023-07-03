@@ -22,9 +22,9 @@ if (!isset($_GET['category'])) {
         $products = $bdd->prepare("SELECT * FROM Products WHERE categori_id = ?");
         $products->execute(array($categoryId));
         while ($product = $products->fetch()) {
-            echo '<h1>' . $product['name'] . '</h1>';
-            echo '<p>' . $product['description'] . '</p>';
-            echo '<p>' . $product['price'] . '</p>';
+            echo '<span>' . $product['name'] . '</span>';
+            echo '<p class="desciption">' . $product['description'] . '</p>';
+            echo '<p class="produit">' . $product['price'] . '</p>';
         }
 
     }
