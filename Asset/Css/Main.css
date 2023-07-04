@@ -1,8 +1,10 @@
+@import "fonts.css";
 *{
     padding: 0;
     margin: 0;
 }
 html{
+    font-family: balgika-normal;
     overflow-x: hidden;
     background: #F3F3F3;
 }
@@ -40,13 +42,16 @@ html{
 }
 .content-frame{
     display: flex;
-    width: 20vh;
-    height: 20vh;
+    flex-wrap: nowrap;
+    width: auto ;
+    height: 36vh;
     padding: 10px;
-    flex-direction: column;
     align-items: center;
     gap: 25px;
-    flex-shrink: 0;
+    justify-content: center;
+}
+.prod{
+    flex-basis: 33.33333%
 }
 .window-product{
     border-radius: 15px;
@@ -65,13 +70,21 @@ html{
     margin-top: 4vh;
     height: var(--Hauteur_banner);
     display: flex;
+    justify-content: space-around;
     width: var(--Largeur_banner);
     max-width: var(--LargeurMax_banner);
-    padding-right: 0;
     align-items: center;
-    background-image: url(../Product-files/Plant-Palm-Leaf-Simple-Background.jpg);
-    background-size: cover;
     flex-direction: row-reverse;
+    background-image: url(../Product-files/Plant-Palm-Leaf-Simple-Background.jpg);
+    color: white;
+}
+.window-product2 a{
+    color: white;
+}
+.window-product2 .right{
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
 }
 .descriptif {
     border-radius: 15px 0px 0px 15px ;
@@ -87,17 +100,13 @@ html{
 }
 .titre-produit{
     display: flex;
-    width: 306px;
-    height: 41px;
+    width: 100%;
     flex-direction: column;
     justify-content: center;
     color: #FFF;
     text-align: center;
-    font-size: 16px;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+    font-size: 200%;
+    line-height: 60px;
 }
 .right-top-bar{
     display: flex;
@@ -160,7 +169,7 @@ html{
 .real-top a {
     margin-right: 2em;
     display: flex;
-    width: 10em;
+    width: 12em;
     background: none;
     border-radius: 15px;
     justify-content: center;

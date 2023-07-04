@@ -12,6 +12,6 @@
             <span>Password</span>
         </div>
         <button class="enter" id="submit" name="submit">Enter</button>
-        <a class="bot" href="./signup.php">Inscrivez-vous !</a>
+        <a class="bot" href="./account/signup.php">Inscrivez-vous !</a>
     </div>
 </form>
