@@ -29,7 +29,7 @@ echo '<p>' . $category['description'] . '</p>';
     $products = $bdd->prepare("SELECT * FROM Products WHERE categori_id = ?");
     $products->execute(array($categoryId));
     while ($product = $products->fetch()) {
-        echo '<a class="Prodcard" href="product.php?product=' . $product['id'] . '">';
+        echo '<a class="card" href="product.php?product=' . $product['id'] . '">';
         echo '<img class ="ProdImg" src="Asset/Product-files/' . $product['image_name'] . '">';
         echo '<span class="id">' . $product['name'] . '</span>';
         echo '<p class="desciption">' . $product['description'] . '</p>';

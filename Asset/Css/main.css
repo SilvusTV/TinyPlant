@@ -3,6 +3,10 @@
     padding: 0;
     margin: 0;
 }
+a{
+    text-decoration: none;
+    color: var(--Font-Color-Grey);
+}
 html{
     font-family: balgika-normal;
     overflow-x: hidden;
@@ -16,7 +20,7 @@ html{
     --Major_Pink: #045e51;
     /*couleur de font*/
     --Font-Color-Green : #d7fcc8;
-    --Font-Color-Grey : #63758f;
+    --Font-Color-Grey : #3d4246;
     --Hauteur_banner : 13rem;
     --Largeur_banner : 100%;
     --LargeurMax_banner : 98vw;
@@ -42,12 +46,13 @@ html{
 }
 .content-frame{
     display: flex;
-    flex-wrap: wrap;
-    width: 20vh;
-    height: 20vh;
+    flex-wrap: nowrap;
+    width: auto ;
+    height: 36vh;
     padding: 10px;
     align-items: center;
     gap: 25px;
+    justify-content: center;
 }
 .prod{
     flex-basis: 33.33333%
@@ -187,4 +192,10 @@ footer{
 }
 .d-none{
     display: none;
+}
+.Prodcard{
+    width: 10em;
+}
+.Product_Img{
+    margin-bottom: 1em;
 }
