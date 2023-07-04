@@ -1,5 +1,13 @@
 <link rel="stylesheet" href="Asset/Css/product.css">
+<link rel="stylesheet" href="Asset/Css/main.css">
 <?php
+include './includer/topbar.php';
+if (isset($_SESSION['user'])) {
+    echo 'Connected';
+} else {
+    include './account/connect.php';
+}
+
 global $bdd;
 include("./includer/db-connect.php");
 
@@ -21,3 +29,5 @@ if (!isset($_GET['product'])) {
     }
 
 }
+?>
+<script src="../Asset/Js/Modale_Acc.js"></script>
