@@ -1,0 +1,457 @@
+.hub-perso,
+.hub-perso * {
+    box-sizing: border-box;
+}
+.hub-perso {
+    background: #ffffff;
+    width: 1440px;
+    height: 1229px;
+    position: relative;
+    overflow: hidden;
+}
+.left {
+    inset: 0;
+}
+.front-resume {
+    display: flex;
+    width: 381px;
+    height: 787px;
+    position: static;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.glycine-floraison-taille-et-entretien-1 {
+    border-radius: 15px;
+    width: 381px;
+    height: 787px;
+    left: 14px;
+    top: 161px;
+    box-shadow: 7px 6px 6px 0px rgba(150, 114, 165, 0.25);
+}
+.group-10 {
+    width: 381px;
+    height: 94px;
+    position: static;
+}
+.rectangle-4 {
+    border-radius: 90px;
+    left: 14px;
+    top: 209px;
+    overflow: visible;
+}
+.name-profile {
+    color: #ffffff;
+    text-align: center;
+    font: 400 16px "Inter", sans-serif;
+    left: 14px;
+    top: 206px;
+    width: 381px;
+    height: 94px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.group-11 {
+    width: 381px;
+    height: 94px;
+    position: static;
+}
+.rectangle-42 {
+    border-radius: 90px;
+    left: 14px;
+    top: 844px;
+    overflow: visible;
+}
+.disconnect {
+    color: #ffffff;
+    text-align: center;
+    font: 400 16px "Inter", sans-serif;
+    left: 14px;
+    top: 841px;
+    width: 381px;
+    height: 94px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circle {
+    width: 250px;
+    height: 250px;
+    position: static;
+}
+.Circle_hub {
+    background: rgba(150, 114, 165, 0.2);
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #9672a5;
+    border-width: 1px;
+    width: 250px;
+    height: 250px;
+    left: 79px;
+    top: 429px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(2px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.cmd {
+    left: 79px;
+    top: 542px;
+    overflow: visible;
+}
+.favorite {
+    left: 305px;
+    top: 542px;
+    overflow: visible;
+}
+.account {
+    left: 192px;
+    top: 430px;
+    overflow: visible;
+}
+.form {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    left: 395px;
+    top: 166px;
+}
+.help {
+    background: rgba(203, 123, 123, 0.11);
+    border-radius: 15px;
+    flex-shrink: 0;
+    width: 973px;
+    height: 729px;
+    position: relative;
+    overflow: hidden;
+    backdrop-filter: blur(2px);
+}
+.auto {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    width: 900px;
+    height: 650px;
+    left: 36px;
+    top: 39px;
+}
+.top {
+    flex-shrink: 0;
+    width: 900px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+}
+.livraison {
+    inset: 0;
+}
+.adresse-de-livraison {
+    color: #000000;
+    text-align: center;
+    font: 400 16px "Inter", sans-serif;
+    left: 12px;
+    top: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.aucune-adresse-de-livraison {
+    color: #000000;
+    text-align: center;
+    font: 400 16px "Inter", sans-serif;
+    left: 13px;
+    top: 77px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ajouter-adresse-de-livraison {
+    color: #757373;
+    text-align: left;
+    font: 400 16px "Inter", sans-serif;
+    text-decoration: underline;
+    left: 12px;
+    top: 106px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.facturation {
+    inset: 0;
+}
+.adresse-de-facturation {
+    color: #000000;
+    text-align: center;
+    font: 400 16px "Inter", sans-serif;
+    left: 12px;
+    top: 175px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.aucune-adresse-de-facturation {
+    color: #000000;
+    text-align: center;
+    font: 400 16px "Inter", sans-serif;
+    left: 13px;
+    top: 204px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ajouter-adresse-de-facturation {
+    color: #757373;
+    text-align: left;
+    font: 400 16px "Inter", sans-serif;
+    text-decoration: underline;
+    left: 13px;
+    top: 233px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.bot {
+    flex-shrink: 0;
+    width: 900px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+}
+.form2 {
+    inset: 0;
+}
+.nom {
+    color: #000000;
+    text-align: left;
+    font: 400 16px "Inter", sans-serif;
+    left: 12px;
+    top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.e-mail {
+    color: #000000;
+    text-align: left;
+    font: 400 16px "Inter", sans-serif;
+    left: 12px;
+    top: 84px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.date-de-naissance {
+    color: #000000;
+    text-align: left;
+    font: 400 16px "Inter", sans-serif;
+    left: 12px;
+    top: 118px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.total-des-d-pense {
+    color: #000000;
+    text-align: left;
+    font: 400 16px "Inter", sans-serif;
+    left: 12px;
+    top: 152px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.modifier-les-donn-es-personnelles {
+    color: #757373;
+    text-align: left;
+    font: 400 16px "Inter", sans-serif;
+    text-decoration: underline;
+    left: 13px;
+    top: 186px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.top-band {
+    display: flex;
+    flex-direction: row;
+    gap: 34px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 1440px;
+    height: 140px;
+    left: 0px;
+    top: 0px;
+    box-shadow: -780px 4px 10px 0px rgba(0, 0, 0, 0.25),
+    -130px 4px 10px 0px rgba(0, 0, 0, 0.25),
+    520px 4px 10px 0px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+.right-top-bar {
+    background: #ffffff;
+    flex-shrink: 0;
+    width: 1437px;
+    height: 140px;
+    position: relative;
+    overflow: hidden;
+}
+.frame-1 {
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+    width: 1457px;
+    left: 1.5px;
+    top: 0px;
+    overflow: hidden;
+}
+.logo {
+    flex-shrink: 0;
+    width: 310px;
+    height: 140px;
+    position: relative;
+    overflow: hidden;
+}
+.Icon-top-bar{
+    width: 2rem;
+    height: 2rem;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+.grenn-plant {
+    inset: 0;
+}
+.clip-path-group {
+    width: 139.9px;
+    height: 86.05px;
+    position: static;
+}
+._48-f-5-c-0-c-14-a {
+    left: 25.96px;
+    top: 18.89px;
+    overflow: visible;
+}
+.group {
+    left: 25.96px;
+    top: 18.89px;
+    overflow: visible;
+}
+.vector6 {
+    left: 30.73px;
+    top: 20.71px;
+    overflow: visible;
+}
+.iny {
+    inset: 0;
+}
+.iny2 {
+    width: 59.42px;
+    height: 36.01px;
+    position: static;
+}
+.group2 {
+    width: 20.39px;
+    height: 22.75px;
+    position: static;
+}
+.group3 {
+    left: 84.46px;
+    top: 84.8px;
+    overflow: visible;
+}
+.group4 {
+    width: 26.97px;
+    height: 16.26px;
+    position: static;
+}
+.group5 {
+    left: 92.49px;
+    top: 91.21px;
+    overflow: visible;
+}
+.group6 {
+    width: 35.73px;
+    height: 29.11px;
+    position: static;
+}
+.group7 {
+    left: 108.15px;
+    top: 91.7px;
+    overflow: visible;
+}
+.group8 {
+    left: 85.45px;
+    top: 84.39px;
+    overflow: visible;
+}
+.group9 {
+    left: 93.48px;
+    top: 90.8px;
+    overflow: visible;
+}
+.Bar_Top_recap {
+    width: auto;
+    height: auto;
+}
+.plant {
+    inset: 0;
+}
+.plant2 {
+    width: 109.7px;
+    height: 29.52px;
+    position: static;
+}
+.Bar_Bot_recap {
+    width: auto;
+    height: auto;
+}
+.frame-12 {
+    padding: 46px 70px 46px 70px;
+    display: flex;
+    flex-direction: row;
+    gap: 75px;
+    align-items: center;
+    justify-content: flex-end;
+    align-self: stretch;
+    flex-shrink: 0;
+    width: 1139px;
+    position: relative;
+}
+.account2 {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+.favorite2 {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+.bags {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+.frame-2 {
+    flex-shrink: 0;
+    width: 269px;
+    height: 70px;
+    position: relative;
+    overflow: hidden;
+}
+.bottom-bar {
+    background: #045e51;
+    width: 1440px;
+    height: 160px;
+    right: 0px;
+    bottom: 0px;
+    overflow: hidden;
+}
